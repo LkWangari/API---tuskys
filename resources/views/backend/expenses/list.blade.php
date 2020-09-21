@@ -86,9 +86,9 @@
                                         <th> {{$i++}}</th>
                                         <td> {{$pc->expenses_name}}</td>
                                         <td> {{$pc->party_name}}</td>
-                                        <td> {{$pc->totalamount}}</td>
-                                        <td> {{$pc->paidamount}}</td>
-                                        <td> {{$pc->dueamount}}</td>
+                                        <td>Ksh. {{$pc->totalamount}}</td>
+                                        <td>Ksh. {{$pc->paidamount}}</td>
+                                        <td>Ksh. {{$pc->dueamount}}</td>
                                         <td> {{$pc->product_name}}</td>
                                         <td> {{$pc->created_at}}</td>
                                         <td>
