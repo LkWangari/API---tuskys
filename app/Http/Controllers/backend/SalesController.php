@@ -40,7 +40,7 @@ class SalesController extends Controller
                 $product = Product::find($request->product_id);
                 $product->stock = $product->stock - $request->sales_quantity;
                 if ($product->update()) {
-                    return response(['success_message' => 'SuccessFully Make sales']);
+                    return response(['success_message' => 'Sales Successfully Made']);
                 }
             }
 
@@ -132,7 +132,7 @@ class SalesController extends Controller
             Sale::create($od);
         }
         DB::table('salescarts')->delete();
-        return redirect()->back()->with('success_message', 'Successfuly Clear Your Bucket and Sales Item store in Sales Record');
+        return redirect()->back()->with('success_message', 'Successfully Cleared Your Bucket and Sales Item stored in Sales Record');
 
     }
 
