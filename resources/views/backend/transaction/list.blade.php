@@ -55,7 +55,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2> Remaining To Deposite Deails</h2>
+                            <h2>Due Amount Details</h2>
                             <ul class="nav navbar-right panel_toolbox">
                                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                 </li>
@@ -92,9 +92,9 @@
                                 @foreach($transaction as $pc)
                                     <tr>
                                         <th> {{$i++}}</th>
-                                        <td> {{$pc->totalamount}}</td>
-                                        <td> {{$pc->depositeamount}}</td>
-                                        <td> {{$pc->remainingamount}}</td>
+                                        <td>Ksh. {{$pc->totalamount}}</td>
+                                        <td>Ksh. {{$pc->depositeamount}}</td>
+                                        <td>Ksh. {{$pc->remainingamount}}</td>
                                         <td> {{$pc->deposite_by}}</td>
                                         <td> {{$pc->deposite_date}}</td>
                                         <td> {{$pc->bank_name}}</td>
@@ -168,9 +168,9 @@
                                 @foreach($finaltransaction as $pc)
                                     <tr>
                                         <th> {{$i++}}</th>
-                                        <td> {{$pc->totalamount}}</td>
-                                        <td> {{$pc->depositeamount}}</td>
-                                        <td> {{$pc->remainingamount}}</td>
+                                        <td>Ksh. {{$pc->totalamount}}</td>
+                                        <td>Ksh. {{$pc->depositeamount}}</td>
+                                        <td>Ksh. {{$pc->remainingamount}}</td>
                                         <td> {{$pc->deposite_by}}</td>
                                         <td> {{$pc->deposite_date}}</td>
                                         <td> {{$pc->bank_name}}</td>
