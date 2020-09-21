@@ -120,14 +120,14 @@ class PurchaseController extends Controller
         $end = $request->end;
         $status = $request->status;
         if ($status == 'all'){
-            $report = Purchase::orderBy('purchase_date','DEC')->whereBetween('purchase_date', [$start, $end])->get();
+            $report = Purchase::orderBy('purchase_date','DESC')->whereBetween('purchase_date', [$start, $end])->get();
             $pdf = PDF::loadview('backend.pdfbill.purchasereport', compact('report', 'start', 'end'));
             if ($pdf){
                 return $pdf->download('allpurchasereport.pdf');
             }
             return redirect()->back()->with('error_message', 'Can not Export Report');
         }else {
-            $report = Purchase::orderBy('purchase_date','DEC')->whereBetween('purchase_date', [$start, $end])->where('status',[$status])->get();
+            $report = Purchase::orderBy('purchase_date','DESC')->whereBetween('purchase_date', [$start, $end])->where('status',[$status])->get();
             $pdf = PDF::loadview('backend.pdfbill.purchasereport', compact('report', 'start', 'end'));
             if ($pdf){
                 return $pdf->download('purchasereport.pdf');
