@@ -97,7 +97,7 @@
         </div>
         <div class="form-actions">
             <span class="pull-left"><a href="{{url('/')}}" class="flip-link btn btn-info">Home </a></span>
-            <span class="pull-right"><button type="submit" name="btnSave" class="btn btn-success"> New Registeration</button></span>
+            <span class="pull-right"><button type="submit" name="btnSave" class="btn btn-success">Register</button></span>
         </div>
     </form>
 </div>
