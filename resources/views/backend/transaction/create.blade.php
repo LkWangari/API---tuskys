@@ -67,7 +67,7 @@
                                 {{ csrf_field()}}
                                 <div class="form-group">
                                     <label for="totalamount">Total Amount(To Be Deposited)*</label>
-                                    <input type="number" class="form-control" id="totalamount" name="totalamount" placeholder="Enter Total Amount To Be Deposite">
+                                    <input type="number" class="form-control" id="totalamount" name="totalamount" placeholder="Enter Total Amount To Be Deposited">
                                      @if($errors->has('totalamount'))
                                         <span class="error"><b>
                                             {{$errors->first('totalamount')}}
@@ -94,7 +94,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="deposite_date">Deposit Date*</label>
-                                    <input type="text" class="form-control" data-toggle="start" name="deposite_date" id="deposite_date" placeholder="Pick Deposite Date">
+                                    <input type="text" class="form-control" data-toggle="start" name="deposite_date" id="deposite_date" placeholder="Pick Deposit Date">
                                     @if($errors->has('deposite_date'))
                                         <span class="error"><b>
                                             {{$errors->first('deposite_date')}}
@@ -103,7 +103,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="bank_name">Bank Name*</label>
-                                    <input type="text" class="form-control"  name="bank_name" id="bank_name" placeholder="Enter Bank Name where you Deposite">
+                                    <input type="text" class="form-control"  name="bank_name" id="bank_name" placeholder="Enter Bank Name where you Deposited">
                                     @if($errors->has('bank_name'))
                                         <span class="error"><b>
                                             {{$errors->first('deposite_date')}}
