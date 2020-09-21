@@ -116,9 +116,7 @@ class ProductcategoryController extends Controller
      */
     public function destroy($id)
     {
-        if ($check) {
-            $this->checkpermission('productcategory-delete');
-        } else {
+
             $productcategory = Productcategory::find($id);
             $message = $productcategory->delete();
             if ($message) {
@@ -127,5 +125,4 @@ class ProductcategoryController extends Controller
                 return redirect()->route('productcategory.update')->with('error_message', 'failed to  Delete');
             }
         }
-    }
 }

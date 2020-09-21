@@ -134,9 +134,6 @@ class ProductController extends Controller
      */
     public function destroy($id)
     {
-        if ($check) {
-            $this->checkpermission('product-delete');
-        } else {
             $product = Product::find($id);
             $message = $product->delete();
             if ($message) {
@@ -144,7 +141,6 @@ class ProductController extends Controller
             } else {
                 return redirect()->route('product.update')->with('error_message', 'failed to  Delete');
             }
-        }
     }
 
     public function stockedit($id)

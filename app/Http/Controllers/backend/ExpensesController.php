@@ -128,9 +128,6 @@ class ExpensesController extends Controller
      */
     public function destroy($id)
     {
-        if ($check) {
-            $this->checkpermission('expenses-delete');
-        } else {
             $staff = Expense::find($id);
             $message = $staff->delete();
             if ($message) {
@@ -138,7 +135,6 @@ class ExpensesController extends Controller
             } else {
                 return redirect()->route('expenses.update')->with('error_message', 'failed to  Delete');
             }
-        }
     }
 
     public function expensesheadingcreate()
