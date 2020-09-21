@@ -39,7 +39,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Asign Permission For <b>{{$roledetails->name}}</b></h2>
+                            <h2>Assign Permission For <b>{{$roledetails->name}}</b></h2>
                             <ul class="nav navbar-right panel_toolbox">
                                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                 </li>
@@ -76,7 +76,7 @@
                                     @endforeach
                                 <br><br>
                                 <div class="box-footer">
-                                    <button type="submit" name="btnCreate" class="btn btn-primary">asign Permission</button>
+                                    <button type="submit" name="btnCreate" class="btn btn-primary">Asign Permission</button>
                                 </div>
                             </form>
                         </div>
