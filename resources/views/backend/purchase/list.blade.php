@@ -158,10 +158,8 @@
                                 <div class="col-md-3">
                                     <select class="form-control" name="status">
                                         <option value="">--Select Purchase Type---</option>
-                                        <option value="all"> ALl Purchase Report</option>
+                                        <option value="all"> ALL Purchase Report</option>
                                         <option value="vat"> VAT Only </option>
-                                        <option value="pan"> Pan Only </option>
-                                        <option value="normal"> Normal Only </option>
                                     </select>
                                 </div>
                                 <div class="col-md-3">
@@ -202,12 +200,6 @@
                                         <td>
                                             @if($pc->status == 'vat')
                                                 <span class="label label-success"> vat </span>
-                                            @endif
-                                            @if($pc->status == 'pan')
-                                                <span class="label label-success"> pan </span>
-                                            @endif
-                                            @if($pc->status == 'normal')
-                                                <span class="label label-success"> normal </span>
                                             @endif
                                         </td>
                                     </tr>

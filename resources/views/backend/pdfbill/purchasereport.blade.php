@@ -57,7 +57,7 @@
                         $total += $price;
                     @endphp
                 @endforeach
-                Rs. {{$total}}
+                Ksh. {{$total}}
             @endif
         </td>
         <td>
@@ -69,7 +69,7 @@
                         $total += $price;
                     @endphp
                 @endforeach
-                Rs. {{$total}}
+                Ksh. {{$total}}
             @endif
         </td>
         <td>
@@ -81,7 +81,7 @@
                         $total += $price;
                     @endphp
                 @endforeach
-                Rs. {{$total}}
+                Ksh. {{$total}}
             @endif
         </td>
         <td></td>
