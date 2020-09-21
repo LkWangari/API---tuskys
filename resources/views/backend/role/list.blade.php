@@ -75,7 +75,7 @@
                                         <td> {{$m->name}}</td>
                                         <td> {{$m->created_at}}</td>
                                         <td> {{$m->updated_at}}</td>
-                                        <td><a href="{{route('permission.asign',$m->id)}}" class="btn btn-info"> Asign Permission</a>
+                                        <td><a href="{{route('permission.asign',$m->id)}}" class="btn btn-info"> Assign Permission</a>
                                             {{--<a href="" class="btn btn-info"> Asign Module</a>--}}
                                         </td>
                                     </tr>

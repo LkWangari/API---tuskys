@@ -84,7 +84,7 @@
                                     @endif
                                 </div>
                                 <div class="form-group">
-                                <label for="deposite_by">Deposite By*</label>
+                                <label for="deposite_by">Deposited By*</label>
                                     <input type="text" class="form-control" name="deposite_by" id="deposite_by" placeholder="Enter Depositor  Full Name">
                                     @if($errors->has('deposite_by'))
                                         <span class="error"><b>
@@ -93,7 +93,7 @@
                                     @endif
                                 </div>
                                 <div class="form-group">
-                                    <label for="deposite_date">Deposite Date*</label>
+                                    <label for="deposite_date">Deposit Date*</label>
                                     <input type="text" class="form-control" data-toggle="start" name="deposite_date" id="deposite_date" placeholder="Pick Deposite Date">
                                     @if($errors->has('deposite_date'))
                                         <span class="error"><b>

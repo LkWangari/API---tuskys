@@ -11,13 +11,13 @@
         <div class="">
             <div class="page-title">
                 <div class="title_left">
-                    <h3>ProductCategory Management </h3>
+                    <h3>Product Category Management </h3>
                 </div>
                 <div class="title_right">
                     <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                         <div class="col-md-5 col-sm-5 col-xs-12 form-group top_search" style="padding-left: 75px;">
                             <div class="input-group">
-                                <a href="{{route('productcategory.list')}}" class="btn btn-success">View ProductCategory</a>
+                                <a href="{{route('productcategory.list')}}" class="btn btn-success">View Product Categories</a>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
                 <div class="col-md-12 col-sm-12 col-xs-12">
                     <div class="x_panel">
                         <div class="x_title">
-                            <h2>Create ProductCategory</h2>
+                            <h2>Create Product Category</h2>
                             <ul class="nav navbar-right panel_toolbox">
                                 <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                 </li>
@@ -86,12 +86,11 @@
 
                                     <input type="radio" name="status" value="1" id="Active" checked=""><label
                                             for="Active"> Active</label>
-                                    <input type="radio" name="status" id="deactive" value="0"><label for="deactive">De
-                                        Active</label>
+                                    <input type="radio" name="status" id="deactive" value="0"><label for="deactive">Inactive</label>
                                 </div>
                                 <!-- /.box-body -->
                                 <div class="box-footer">
-                                    <button type="submit" name="btnCreate" class="btn btn-primary" >Save Productcategory</button>
+                                    <button type="submit" name="btnCreate" class="btn btn-primary" >Save Product Category</button>
                                 </div>
                             </form>
                         </div>

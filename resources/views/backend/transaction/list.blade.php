@@ -79,8 +79,8 @@
                                 <tr>
                                     <th>S.N.</th>
                                     <th>Total Amount</th>
-                                    <th>deposite Amount</th>
-                                    <th>Remaining To Deposite</th>
+                                    <th>Deposit Amount</th>
+                                    <th>Amount Due</th>
                                     <th>Deposited By</th>
                                     <th>Deposited Date</th>
                                     <th>Bank Name</th>
@@ -156,8 +156,8 @@
                                 <tr>
                                     <th>S.N.</th>
                                     <th>Total Amount</th>
-                                    <th>deposite Amount</th>
-                                    <th>Remaining To Deposite</th>
+                                    <th>Deposit Amount</th>
+                                    <th>Amount Due</th>
                                     <th>Deposited By</th>
                                     <th>Deposited Date</th>
                                     <th>Bank Name</th>

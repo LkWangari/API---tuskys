@@ -4,7 +4,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Salary Document</title>
+    <title> Transactions</title>
 </head><body>
 <h2 align="center">Banking Deposite Transaction</h2>
 <table border="1" align="center" cellpadding="5">
@@ -12,10 +12,10 @@
     <tr>
         <th>S.N.</th>
         <th>Total Amount</th>
-        <th>Deposite Amount</th>
-        <th>Remaining to Deposite</th>
-        <th>Deposite by</th>
-        <th>Deposite Date</th>
+        <th>Deposit Amount</th>
+        <th>Amount Due</th>
+        <th>Deposited by</th>
+        <th>Deposit Date</th>
         <th>Bank Name</th>
     </tr>
     </thead>

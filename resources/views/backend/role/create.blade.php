@@ -17,7 +17,7 @@
                     <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                         <div class="col-md-5 col-sm-5 col-xs-12 form-group pull-right top_search">
                             <div class="input-group">
-                                <a href="{{route('role.list')}}" class="btn btn-success">View Role</a>
+                                <a href="{{route('role.list')}}" class="btn btn-success">View Roles</a>
                             </div>
                         </div>
                     </div>
