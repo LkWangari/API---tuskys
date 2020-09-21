@@ -88,7 +88,7 @@
                                             @if($pc->status == 1)
                                                 <span class="label label-success"> Active </span>
                                             @else
-                                                <span class="label label-danger">DeActive</span>
+                                                <span class="label label-danger">Inactive</span>
                                             @endif
                                         </td>
                                         <td> {{$pc->created_by}}</td>

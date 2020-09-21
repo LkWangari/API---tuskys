@@ -111,7 +111,7 @@
                                 <div class="form-group">
                                     <label>Status</label>
                                     <input type="radio" name="status" value="1" id="Active" checked=""><label for="Active"> Active</label>
-                                    <input type="radio" name="status" id="deactive" value="0"><label for="deactive">DeActive</label>
+                                    <input type="radio" name="status" id="deactive" value="0"><label for="deactive">Inactive</label>
                                 </div>
                                 <!-- /.box-body -->
                                 <div class="box-footer">

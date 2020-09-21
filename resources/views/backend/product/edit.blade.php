@@ -125,10 +125,10 @@
                                     <label>Status</label>
                                     @if($product->status == 1)
                                         <input type="radio" name="status" value="1" id="Active" checked=""><label for="Active"> Active</label>
-                                        <input type="radio" name="status" id="deactive" value="0"><label for="deactive">DeActive</label>
+                                        <input type="radio" name="status" id="deactive" value="0"><label for="deactive">Inactive</label>
                                     @else
                                         <input type="radio" name="status" value="1" id="Active" ><label for="Active"> Active</label>
-                                        <input type="radio" name="status" id="deactive" value="0" checked=""><label for="deactive">DeActive</label>
+                                        <input type="radio" name="status" id="deactive" value="0" checked=""><label for="deactive">Inactive</label>
                                     @endif
 
                                 </div>

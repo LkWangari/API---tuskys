@@ -151,10 +151,10 @@
     </div>
 </div>
 <!-- jQuery -->
-<script src="{{asset('backend/vendors/jquery/dist/jquery.min.js')}}"></script>
+<script src="{{asset('backend/vendors/jquery/dist/jquery.min.js?32754864')}}"></script>
 <!-- Bootstrap -->
-<script src="{{asset('backend/vendors/bootstrap/dist/js/bootstrap.min.js')}}"></script>
-<script src="{{asset('backend/build/js/custom.min.js')}}"></script>
+<script src="{{asset('backend/vendors/bootstrap/dist/js/bootstrap.min.js?32754864')}}"></script>
+<script src="{{asset('backend/build/js/custom.min.js?32754864')}}"></script>
 @Yield('script')
 </body>
 </html>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head><body>
-<h2 align="center">Assets Report From {{$start}} To {{$end}}</h2>
+<h2 align="center">Purchase Report From {{$start}} To {{$end}}</h2>
 <table border="1" align="center" cellpadding="5">
     <thead>
     <tr>
@@ -36,12 +36,6 @@
         <td>
             @if($pc->status == 'vat')
                 <span class="label label-success"> vat </span>
-            @endif
-            @if($pc->status == 'pan')
-                <span class="label label-success"> pan </span>
-            @endif
-            @if($pc->status == 'normal')
-                <span class="label label-success"> normal </span>
             @endif
         </td>
     </tr>

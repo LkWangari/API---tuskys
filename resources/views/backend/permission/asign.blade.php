@@ -76,7 +76,7 @@
                                     @endforeach
                                 <br><br>
                                 <div class="box-footer">
-                                    <button type="submit" name="btnCreate" class="btn btn-primary">Asign Permission</button>
+                                    <button type="submit" name="btnCreate" class="btn btn-primary">Assign Permission</button>
                                 </div>
                             </form>
                         </div>

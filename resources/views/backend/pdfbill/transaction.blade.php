@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> Transactions</title>
 </head><body>
-<h2 align="center">Banking Deposite Transaction</h2>
+<h2 align="center">Banking Deposit Transaction</h2>
 <table border="1" align="center" cellpadding="5">
     <thead>
     <tr>
@@ -67,7 +67,7 @@
                         $total += $price;
                     @endphp
                 @endforeach
-                Ksh.. {{$total}}
+                Ksh. {{$total}}
             @endif
         </td>
         <td></td>
