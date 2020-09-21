@@ -121,8 +121,6 @@ class PermissionController extends Controller
 
     public function asign($id)
     {
-        $this->checkpermission('permission-asign');
-
         $roledetails = Role::find($id);
         $permission = Permission::all();
         $currentpermission = $roledetails->permissions;
