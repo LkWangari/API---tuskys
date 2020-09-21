@@ -21,7 +21,7 @@
                             </div>
                             <div class="col-md-3">
                                 <div class="input-group">
-                                    <a href="{{route('transaction.list')}}" class="btn btn-success">View Transaction</a>
+                                    <a href="{{route('transaction.list')}}" class="btn btn-success">View Transactions</a>
                                 </div>
                             </div>
                         </div>
