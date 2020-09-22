@@ -29,6 +29,7 @@ Route::post('/sales-store', ['as' => 'sales.store', 'uses' => 'backend\SalesCont
         Route::post('/change-save', ['as' => 'change.save', 'uses' => 'backend\UserController@changesave']);
         Route::get('/reset-password', ['as' => 'reset.password', 'uses' => 'backend\ForgotPasswordController@showLinkRequestForm']);
         Route::post('password/email', ['as' => 'reset.password.send', 'uses' => 'backend\ForgotPasswordController@sendResetLinkEmail']);
+          Route::post('newpassword/email', ['as' => 'reset.newpassword.send', 'uses' => 'PhpmailerController@sendEmail']);
         Route::get('password/reset/{token}', ['as' => 'reset.password.token', 'uses' => 'backend\ResetPasswordController@showResetForm']);
         Route::post('password/reset', ['as' => 'reset.password.save', 'uses' => 'backend\ResetPasswordController@reset']);
 
@@ -111,5 +112,3 @@ Route::post('/sales-store', ['as' => 'sales.store', 'uses' => 'backend\SalesCont
         Route::post('/transaction-save', ['as' => 'transaction.store', 'uses' => 'backend\TransactionController@store']);
         Route::get('/transaction-update/{id}', ['as' => 'transaction.update', 'uses' => 'backend\TransactionController@update']);
         Route::get('/transaction-report', ['as' => 'transaction.report', 'uses' => 'backend\TransactionController@export']);
-
-

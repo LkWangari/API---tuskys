@@ -20,18 +20,19 @@
     </style>
 </head>
 <body style="background-color: #f7e9c6;">
-<div id="loginbox">
-    @if(Session::has('success_message'))
-        <div class="alert alert-success">
-            {{ Session::get('success_message') }}
-        </div>
-    @endif
-    @if(Session::has('error_message'))
-        <div class="alert alert-danger">
-            {{ Session::get('error_message') }}
-        </div>
-    @endif
-    <form class="form-vertical" action="{{route('reset.password.send')}}" method="post">
+<div id="loginbox" class="phpmailer-page">
+  @if ($message = Session::get('success'))
+	<div class="alert alert-success">
+	    <strong>{{ $message }}</strong>
+	</div>
+	@endif
+
+	@if ($message = Session::get('error'))
+	<div class="alert alert-error">
+	    <strong>{{ $message }}</strong>
+	</div>
+	@endif
+    <form class="form-vertical" action="{{ route('reset.newpassword.send') }}" method="post">
         {{csrf_field()}}
         <div class="control-group normal_text"><h3><img src="{{asset('images/tuskys.png')}}" height="230" width="230" alt="Logo"/></h3></div>
         <div class="controls">
